@@ -12,4 +12,4 @@ This project tracks buses in real-time between MIT and Harvard using Mapbox. It 
 - Improve the UI with more details about each bus stop.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/LucaBrizuela/GitHubPagesPortfolioAssignment.github.io/blob/main/LICENSE.txt) file for details.
