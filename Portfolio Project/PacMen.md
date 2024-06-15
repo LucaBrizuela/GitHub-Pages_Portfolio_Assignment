@@ -12,4 +12,4 @@ This project involves creating multiple PacMen that bounce around the screen. Ea
 - Implement collision detection between PacMen.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE.txt) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/LucaBrizuela/GitHubPagesPortfolioAssignment.github.io/blob/main/LICENSE.txt) file for details.
