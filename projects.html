@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .typing-effect {
+            font-family: 'Courier New', Courier, monospace;
+            display: inline-block;
+            white-space: pre;
+            font-size: 2rem;
+            color: #000000; /* Primary color for text */
+            margin-bottom: 20px;
+        }
+
+        .navbar-nav .nav-link {
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107; /* Highlight color */
+            text-shadow: 0 0 5px #ffc107;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+        }
+
+        .card .btn-primary:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+            transform: scale(1.1);
+        }
+
+        .card .btn-secondary {
+            background-color: #6c757d; /* Secondary grey color */
+            border: none;
+        }
+
+        .card .btn-secondary:hover {
+            background-color: #5a6268; /* Darker grey on hover */
+            transform: scale(1.1);
+        }
+
+        .back-arrow {
+            font-size: 2rem;
+            color: #007bff;
+            cursor: pointer;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .back-arrow:hover {
+            color: #0056b3;
+            transform: scale(1.2);
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+            transition: transform 0.3s, filter 0.3s;
+        }
+
+        .social-icons img:hover {
+            transform: scale(1.2);
+            filter: brightness(1.2);
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <section class="projects">
+            <h1 class="text-center typing-effect" id="projects-title">My Projects</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="./Assets/pacmen_preview.png" class="card-img-top" alt="PacMen Exercise">
+                        <div class="card-body">
+                            <h2 class="card-title">PacMen Exercise</h2>
+                            <p class="card-text">This project involves creating multiple PacMen that bounce around the screen.</p>
+                            <a href="https://github.com/LucaBrizuela/PacMenExercise/tree/main" class="btn btn-primary">View Repository</a>
+                            <a href="https://finlandsamuel-forbidrespond.codio.io/student_code/index.html" class="btn btn-secondary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="./Assets/eye_exercise_preview.png" class="card-img-top" alt="Eye Exercise">
+                        <div class="card-body">
+                            <h2 class="card-title">Eye Movement Exercise</h2>
+                            <p class="card-text">This project involves animated eyes that follow the user's cursor movement.</p>
+                            <a href="https://github.com/LucaBrizuela/EyeMovementExercise" class="btn btn-primary">View Repository</a>
+                            <a href="https://couragegyro-protectperfume.codio.io/student_code/index.html" class="btn btn-secondary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="./Assets/bus_tracker_preview.png" class="card-img-top" alt="Real Time Bus Tracker">
+                        <div class="card-body">
+                            <h2 class="card-title">Real Time Bus Tracker</h2>
+                            <p class="card-text">This project tracks buses in real-time between MIT and Harvard using Mapbox.</p>
+                            <a href="https://github.com/LucaBrizuela/RealTimeBusTracker/tree/main" class="btn btn-primary">View Repository</a>
+                            <a href="https://diegotrust-caesarsahara.codio.io/student_code/index.html" class="btn btn-secondary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="index.html" class="back-arrow">&larr; Back to Home</a>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
